@@ -1,16 +1,9 @@
 # lume_ox_app
 
-A new Flutter project.
+This is the flutter project for android and ios as one single codebase.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Checkout this project in a machine which is configured to build flutter projects.
+- Ensure that the unity project is kept within the flutter app under unity folder.
+- Unity project is reference with this projects which will build and place UnityLibrary in Android and iOS folders.
