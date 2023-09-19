@@ -1,0 +1,130 @@
+{
+  "status" : "true",
+  "message": "success",
+  "hotspots": [
+    {
+      "followup_question": "Did you notice compliance standards of our machines (ISO certification 20001)?",
+      "discovery_questions": [
+        {
+          "type": "SCQ",
+          "questions": "Is your machine ISO complaint as Spartan's or just the old sorts? Please be precise to answer this."
+        },
+        {
+          "type": "RANGE",
+          "questions": "How long have you been using the machine now? Can you be approximate on the age of the machine?",
+          "lower_range": 1,
+          "upper_range": 50
+        }
+      ],
+      "value_prop": {
+        "current_brand": "No ISO compliance, hence there is no guarantee on safety aspects.",
+        "proposed_brand": "The machines are ISO compliant. They are safety certified 20001",
+        "values": "Less prone to failures. Safety work environment for labourers.",
+        "gains": "Reduce accidents and insurance claims by 70% and save 14 Lakhs per year"
+      }
+    },
+    {
+      "followup_question": "Did you notice how animation explains the use and maintenance of the flywheel bonnet?",
+      "discovery_questions": [
+        {
+          "type": "SCQ",
+          "questions": "Does your machine have a cover to protect the flywheel?"
+        },
+        {
+          "type": "RANGE",
+          "questions": "How many times the belt has harmed your laborers?",
+          "lower_range": 1,
+          "upper_range": 10
+        }
+      ],
+      "value_prop": {
+        "current_brand": "There is no belt cover and hence may cause safety and maintenance issues.",
+        "proposed_brand": "Greater life and higher safety with flywheel bonnet, which may protect the flywheel.",
+        "values": "Less prone to accidents. Safety work environment for laborers. The larger lifetime of the belt.",
+        "gains": "Reduce accidents and belt wear and tear. Save 4.5L per annum."
+      }
+    },
+    {
+      "followup_question": "Did you notice how animation explains the use and maintenance of the front bonnet?",
+      "discovery_questions": [
+        {
+          "type": "SCQ",
+          "questions": "Does your machine have a cover to protect the parts at the front of the machine?"
+        },
+        {
+          "type": "RANGE",
+          "questions": "How many times the parts in the front of the machine have been harmful?",
+          "lower_range": 1,
+          "upper_range": 10
+        }
+      ],
+      "value_prop": {
+        "current_brand": "There is cover and hence may cause safety and maintenance issues.",
+        "proposed_brand": "Greater life and higher safety with front bonnet, which may protect the parts in the front of the machine.",
+        "values": "Less prone to accidents. The larger lifetime of the parts in the front of that machine.",
+        "gains": "Reduce accidents and costly parts wear and tear. Save 14.5L per annum."
+      }
+    },
+    {
+      "followup_question": "Did you notice the mechanical interlock with the safety plate that provides more safety?",
+      "discovery_questions": [
+        {
+          "type": "SCQ",
+          "questions": "Is there a mechanical interlock with the safety plate in your machine? "
+        },
+        {
+          "type": "RANGE",
+          "questions": "How long does it take to train your labourers on dos and don ts for safety?",
+          "lower_range": 1,
+          "upper_range": 10
+        }
+      ],
+      "value_prop": {
+        "current_brand": "There is no cover and hence may cause safety and maintenance issues.",
+        "proposed_brand": "Safety plates function and their role is to prevent accidents.",
+        "values": "Protect the operators during machine operation.",
+        "gains": "Reduce accidents and safety training. Save 18.5L per annum."
+      }
+    },
+    {
+      "followup_question": "Did you notice the data shown in the capacity chart?",
+      "discovery_questions": [
+        {
+          "type": "SCQ",
+          "questions": "Is there a summary of the capacity chart in your machine? "
+        },
+        {
+          "type": "RANGE",
+          "questions": "How long does it take to train your laborers on the capacity params of the machine?",
+          "lower_range": 1,
+          "upper_range": 10
+        }
+      ],
+      "value_prop": {
+        "current_brand": "There is no capacity chart and hence laborers need a lot of training.",
+        "proposed_brand": "The capacity chart is right on top of the machine in the view of the operator.",
+        "values": "Operators need not be trained to remember the capacity values of the machine.",
+        "gains": "Reduce training costs. Save 10L per annum."
+      }
+    },
+    {
+      "followup_question": "Did you notice the demonstration of the functioning of the Direct-On-Line (DOL) starter?",
+      "discovery_questions": [
+        {
+          "type": "SCQ",
+          "questions": "Did you know that Direct-On-Line (DOL) starter is a type of motor starter? "
+        },
+        {
+          "type": "SCQ",
+          "questions": "Did you notice that Voltage and Phase Reversal (VPR) protection features ensure safe operation?"
+        }
+      ],
+      "value_prop": {
+        "current_brand": "There is no Direct-On-Line (DOL) and needs a manual start and stop.",
+        "proposed_brand": "The Direct-On-Line (DOL) automates the job and cuts off when voltage is low.",
+        "values": "Operators need not spend time keeping an eye on the voltage fluctuations.",
+        "gains": "Reduce training costs and time spent. Save 30L per annum."
+      }
+    }
+  ]
+}
